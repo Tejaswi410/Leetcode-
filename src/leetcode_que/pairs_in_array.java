@@ -78,16 +78,16 @@ public class pairs_in_array {
     }
 
     public static void kadanes(int[] arr){
-        int ms = Integer.MIN_VALUE;
-        int cs = 0;
+        int maxsum = Integer.MIN_VALUE;
+        int currsum=0;
         for(int i=0;i<arr.length;i++){
-            cs = cs + arr[i];
-            if(cs<0){
-                cs = 0;
+            currsum = currsum + arr[i];
+            if(currsum<0){
+                currsum = 0;
             }
-            ms = Math.max(cs,ms);
+            maxsum = Math.max(currsum,maxsum);
         }
-        System.out.println("The maximum subarray is " + ms);
+        System.out.println("The maximum subarray is " + maxsum);
     }
 
 
