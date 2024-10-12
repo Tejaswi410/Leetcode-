@@ -1,5 +1,5 @@
 package leetcode_que;
-
+//https://leetcode.com/problems/richest-customer-wealth/description/
 public class MaxWealthLC {
     public static void main(String[] args) {
 

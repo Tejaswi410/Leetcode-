@@ -1,7 +1,7 @@
 package leetcode_que;
 import java.util.Scanner;
 
-
+//https://leetcode.com/problems/rotate-array/description/
 public class Rotate_array {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);

@@ -1,5 +1,5 @@
 package leetcode_que;
-
+//https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/
 public class buy_sell_stocks {
     public static void main(String[] args) {
         int[] stocks = {7,1,5,3,6,4};
