@@ -81,7 +81,7 @@ public class pairs_in_array {
         int ms = Integer.MIN_VALUE;
         int cs = 0;
         for(int i=0;i<arr.length;i++){
-            cs = cs + arr[i];
+            cs +=arr[i];
             if(cs<0){
                 cs = 0;
             }
