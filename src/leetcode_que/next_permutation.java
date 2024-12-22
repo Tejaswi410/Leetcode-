@@ -1,4 +1,5 @@
 package leetcode_que;
+import java.util.*;
 //https://leetcode.com/problems/next-permutation
 
 public class next_permutation {
@@ -14,7 +15,7 @@ public class next_permutation {
 
         if (ind == -1) {
             Arrays.sort(nums);
-            System.out.print(Arrays.toString(nums));
+            System.out.print(Arrays.toString(nums));  //we can also change the these 2 steps with reverse func.
         } else {
             for (int i = n - 1; i >= ind; i--) {
                 if (nums[i] > nums[ind]) {
