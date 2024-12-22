@@ -1,7 +1,7 @@
 package leetcode_que;
 import java.util.*;
 //https://leetcode.com/problems/next-permutation
-
+//we can replace the following code using list for more readability and optimatlity but the logic will remain same.
 public class next_permutation {
     public void nextPermutation(int[] nums) {
         int n = nums.length;
