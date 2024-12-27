@@ -9,7 +9,7 @@ Variation 3: Given the number of rows n. Print the first n rows of Pascal’s tr
 
  */
 public class pascal_triangle {
-    //variation 1
+    //variation 1:print the element present at r,c position
     public static long nCr_var1(int n, int r) {
         long res = 1;
 
@@ -26,7 +26,7 @@ public class pascal_triangle {
         return element;
     }
 
-    //variation 2
+    //variation 2:print only the nth row
     static void pascalTriangle(int n) {
         long ans = 1;
         System.out.print(ans + " "); // printing 1st element
@@ -40,7 +40,7 @@ public class pascal_triangle {
         System.out.println();
     }
 
-    //variation 3 : Entire pascal triangle till nth row
+    //variation 3 : print the entire pascal triangle till nth row
     public List<List<Integer>> generate(int numRows) {
         List<List<Integer>> ans = new ArrayList<>();
         for(int i=1;i<=numRows;i++){
@@ -61,4 +61,19 @@ public class pascal_triangle {
         }
         return (int)res;
     }
+}
+
+ class Pascal_triangle_2{
+     public List<Integer> getRow(int rowIndex) {
+         long res =1;
+         long n =rowIndex+1;
+         List<Integer> ans = new ArrayList<>();
+         ans.add((int)res);
+         for(int i=1;i<n;i++){
+             res=res*(n-i);
+             res=res/i;
+             ans.add((int)res);
+         }
+         return ans;
+     }
 }
