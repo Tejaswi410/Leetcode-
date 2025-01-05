@@ -19,7 +19,6 @@ basically i<2*j . this is the whole idea to count the reverse pairs
             while(right <= high && (long)nums[i] > 2L*nums[right]) right++;
             cnt = cnt + (right -(mid+1));  /*it counts the elements that is already a reverse pair of some element and avoids counting it again.
             for e.g. if [15,17,18,20] and [2,4,5,6,7,9,12,13] - if 2,4,5,6,7 has reverse pair with 15 then they will have for 17,18,20 also so it avoids to count it again and again
-
                  */
         }
         return cnt;
