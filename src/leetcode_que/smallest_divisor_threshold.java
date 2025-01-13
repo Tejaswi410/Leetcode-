@@ -1,5 +1,6 @@
 package leetcode_que;
 import java.util.*;
+//https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold
 
 public class smallest_divisor_threshold {
     public int smallestDivisor(int[] nums, int threshold) {
