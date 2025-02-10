@@ -1,6 +1,6 @@
 package daily_que;
 import java.util.*;
-//https://leetcode.com/problems/find-the-number-of-distinct-colors-among-the-balls?envType=daily-question&envId=2025-02-07
+//https://leetcode.com/problems/find-the-number-of-distinct-colors-among-the-balls?envType=daily-question&envId=2025-02-07find
 
 public class seventh_feb {
     public int[] queryResults(int limit, int[][] queries) {

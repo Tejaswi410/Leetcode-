@@ -1,6 +1,6 @@
 package daily_que;
 import java.util.*;
-//https://leetcode.com/problems/count-number-of-bad-pairs?envType=daily-question&envId=2025-02-10
+//https://leetcode.com/problems/count-number-of-bad-pairs?envType=daily-question&envId=2025-02-10counj
 
 public class nineth_feb {
     public long countBadPairs(int[] nums) {
