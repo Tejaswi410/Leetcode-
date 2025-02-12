@@ -2,7 +2,7 @@ package daily_que;
 import java.util.*;
 //https://leetcode.com/problems/design-a-number-container-system?envType=daily-question&envId=2025-02-10
 
-public class eighth_feb {
+public class feb_8 {
     private Map<Integer, Integer> d = new HashMap<>();
     private Map<Integer, TreeSet<Integer>> g = new HashMap<>();
 

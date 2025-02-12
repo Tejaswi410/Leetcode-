@@ -1,7 +1,7 @@
 package daily_que;
 import java.util.*;
 //https://leetcode.com/problems/tuple-with-same-product?envType=daily-question&envId=2025-02-07
-public class sixth_feb {
+public class feb_6 {
     public int tupleSameProduct(int[] nums) {
         int ans = 0;
         Map<Integer, Integer> count = new HashMap<>();

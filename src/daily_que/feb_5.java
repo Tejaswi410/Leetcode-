@@ -1,8 +1,7 @@
 package daily_que;
-import java.util.*;
 //https://leetcode.com/problems/check-if-one-string-swap-can-make-strings-equal?envType=daily-question&envId=2025-02-05
 
-public class fifth_feb {
+public class feb_5 {
     public boolean areAlmostEqual(String s1, String s2) {
         int mismatchCount = 0;
         char firstCharFromS1 = 0, firstCharFromS2 = 0;

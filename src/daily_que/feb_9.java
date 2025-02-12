@@ -2,7 +2,7 @@ package daily_que;
 import java.util.*;
 //https://leetcode.com/problems/count-number-of-bad-pairs?envType=daily-question&envId=2025-02-10counj
 
-public class nineth_feb {
+public class feb_9 {
     public long countBadPairs(int[] nums) {
         Map<Integer, Integer> freqMap = new HashMap<>();
         long goodpair = 0;

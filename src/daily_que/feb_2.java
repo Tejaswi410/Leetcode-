@@ -1,7 +1,7 @@
 package daily_que;
 //https://leetcode.com/problems/check-if-array-is-sorted-and-rotated?envType=daily-question&envId=2025-02-02
 
-public class second_feb {
+public class feb_2 {
     public boolean check(int[] nums) {
         int n = nums.length;
         int cnt = 0;

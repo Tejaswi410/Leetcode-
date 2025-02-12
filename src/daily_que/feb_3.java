@@ -1,8 +1,7 @@
 package daily_que;
-import java.util.*;
 //https://leetcode.com/problems/longest-strictly-increasing-or-strictly-decreasing-subarray?envType=daily-question&envId=2025-02-03
 
-public class third_feb {
+public class feb_3 {
     public int longestMonotonicSubarray(int[] nums) {
         int n = nums.length;
         int increasing = 1;

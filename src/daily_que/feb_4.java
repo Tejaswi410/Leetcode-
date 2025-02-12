@@ -1,8 +1,7 @@
 package daily_que;
-import java.util.*;
 //leetcode.com/problems/maximum-ascending-subarray-sum?envType=daily-question&envId=2025-02-04
 
-public class fourth_feb {
+public class feb_4 {
     public int maxAscendingSum(int[] nums) {
         int n = nums.length;
         int sum = 0;

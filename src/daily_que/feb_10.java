@@ -1,8 +1,7 @@
 package daily_que;
-import java.util.*;
 //https://leetcode.com/problems/clear-digits?envType=daily-question&envId=2025-02-10
 
-public class tenth_feb {
+public class feb_10 {
     public String clearDigits(String s) {
         StringBuilder res = new StringBuilder();
         for( char c: s.toCharArray()){

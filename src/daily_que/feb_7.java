@@ -2,7 +2,7 @@ package daily_que;
 import java.util.*;
 //https://leetcode.com/problems/find-the-number-of-distinct-colors-among-the-balls?envType=daily-question&envId=2025-02-07find
 
-public class seventh_feb {
+public class feb_7 {
     public int[] queryResults(int limit, int[][] queries) {
         Map<Integer,Integer> group = new HashMap<>();
         Map<Integer,Integer> cnt = new HashMap<>();
