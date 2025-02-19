@@ -6,6 +6,24 @@
   <component name="ChangeListManager">
     <list default="true" id="3df41963-ca00-401c-a7fa-724280cd22f7" name="Changes" comment="init commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode_que/Even_num.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode_que/Arrays/Even_num.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode_que/MaxWealthLC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode_que/Arrays/MaxWealthLC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode_que/avg_val.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode_que/Arrays/avg_val.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode_que/binary_search.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode_que/Arrays/binary_search.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode_que/buy_sell_stocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode_que/Arrays/buy_sell_stocks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode_que/count_inversions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode_que/Arrays/count_inversions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode_que/first_last_occurrence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode_que/Arrays/first_last_occurrence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode_que/foursum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode_que/Arrays/foursum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode_que/koko_eating_bananas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode_que/Arrays/koko_eating_bananas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode_que/kth_missing_positive_no.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode_que/Arrays/kth_missing_positive_no.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode_que/longest_consecutive_sequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode_que/Arrays/longest_consecutive_sequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode_que/majority_ele.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode_que/Arrays/majority_ele.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode_que/majority_element_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode_que/Arrays/majority_element_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode_que/matrix_zero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode_que/Arrays/matrix_zero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode_que/max_ones.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode_que/Arrays/max_ones.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode_que/max_prod_subarray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode_que/Arrays/max_prod_subarray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode_que/median_sorted_arrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode_que/Arrays/median_sorted_arrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode_que/merge_overlap_intervals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode_que/Arrays/merge_overlap_intervals.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +75,7 @@
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode_que.*" />
+          <option name="PATTERN" value="leetcode_que.Arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
