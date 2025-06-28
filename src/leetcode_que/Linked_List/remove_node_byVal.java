@@ -6,7 +6,7 @@ package leetcode_que.Linked_List;
 public class remove_node_byVal {
     public ListNode removeElements(ListNode head, int val) {
         if(head == null) return head;
-        ListNode dummy = new ListNode(0);
+        ListNode dummy = new ListNode();
         dummy.next = head;
         ListNode curr = head;
         ListNode prev = dummy;

@@ -16,7 +16,7 @@ public class sort_LL {
     }
 
     public ListNode MergeList(ListNode l1, ListNode l2){
-        ListNode newnode = new ListNode(-1);
+        ListNode newnode = new ListNode();
         ListNode temp = newnode;
         while(l1 != null && l2 != null){
             if(l1.val <= l2.val){

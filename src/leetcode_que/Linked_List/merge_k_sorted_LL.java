@@ -18,7 +18,7 @@ public class merge_k_sorted_LL {
                 heap.offer(node);
         }
 
-        ListNode dummy = new ListNode(0);
+        ListNode dummy = new ListNode();
         ListNode current = dummy;
 
         while (!heap.isEmpty()) {

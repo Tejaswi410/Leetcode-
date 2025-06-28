@@ -19,7 +19,7 @@ public class add_2_nums {
 
             sum += carry;
             carry = sum / 10;
-            ListNode temp = new ListNode(sum % 10);
+            ListNode temp = new ListNode();
             curr.next = temp;
             curr = curr.next;
         }

@@ -6,7 +6,7 @@ package leetcode_que.Linked_List;
 public class swap_nodes_in_pairs {
     public ListNode swapPairs(ListNode head) {
         if(head == null || head.next == null) return head;
-        ListNode dummy = new ListNode(-1);
+        ListNode dummy = new ListNode();
         dummy.next = head;
         ListNode point = dummy;
         while(point.next != null && point.next.next != null){

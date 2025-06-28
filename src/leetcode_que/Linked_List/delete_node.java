@@ -6,7 +6,7 @@ import java.util.*;
   class ListNode {
       int val;
       ListNode next;
-      ListNode(int x) { val = x; }
+      ListNode() { val = x; }
   }
 
 public class delete_node {

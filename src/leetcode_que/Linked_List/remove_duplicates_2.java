@@ -6,7 +6,7 @@ package leetcode_que.Linked_List;
 public class remove_duplicates_2 {
     public ListNode deleteDuplicates(ListNode head) {
         if(head == null || head.next == null) return head;
-        ListNode dummy = new ListNode(0);
+        ListNode dummy = new ListNode();
         dummy.next = head;
         ListNode prev = dummy;
         ListNode curr = head;

@@ -6,8 +6,8 @@ package leetcode_que.Linked_List;
 
 public class partition_list {
     public ListNode partition(ListNode head, int x) {
-        ListNode smallerHead = new ListNode(0);
-        ListNode greaterHead = new ListNode(0);
+        ListNode smallerHead = new ListNode();
+        ListNode greaterHead = new ListNode();
         ListNode smallerTail = smallerHead;
         ListNode greaterTail = greaterHead;
 
